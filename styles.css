@@ -1,0 +1,443 @@
+body{
+	position: relative;
+	height: 480vh;
+	margin: 0;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	background: white;
+	box-shadow:#666666 1px 1px 5px ;
+}
+
+.nav ul{
+	display: flex;
+}
+
+ul li{
+	list-style-type: none;
+	margin: 0 40px 0 0;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	letter-spacing: 3px;
+	box-shadow: #666 ;
+}
+
+.nav ul li a:hover {
+	color: red;
+	font-size: 19px;
+	
+}
+
+.LOGO img{
+    width: 200px;
+	height: 50px;
+	margin:0 0 0 40px
+}
+
+.videoheader{
+	position: absolute;
+	top: 8vh;
+	width: 100%;
+	height: 625px;
+	background-image: url(IMG/21212.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.videoheader button{
+	position: absolute;
+	top: 450px;
+	left: 25%;
+    padding: 15px;
+	border-radius: 10px;
+	background-color: red;
+	border: 2px solid rgb(235, 229, 229);
+	color: white;
+}
+
+.videoheader h1{
+	font-size: 50px;
+	position: absolute;
+	top: 350px;
+	left: 25%;
+	color: white;
+	background-color: rgb(224, 81, 81);
+
+}
+ 
+h2{
+	position: absolute;
+	top: 100vh;
+	margin: 40px 0 0 40%;
+	font-size: 47px;
+}
+hr{
+	position: absolute;
+	top: 115vh;
+	margin: 0 0 0 42%;
+	width: 90px;
+	border: 1px solid red;
+}
+
+.products{
+	display: flex;
+
+}
+
+.products .card{
+	position: absolute;
+	top: 125vh;
+	left: 3%;
+	width: 20%;
+	height: 310px;
+	border: 1px solid black;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 1.4;
+	font-size: 18px;
+	padding: 7px;
+}
+.card button{
+	padding: 5px;
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+	transition: 2s;
+	border: 1px solid red;
+ }
+ 
+ .products .card button:hover{
+	background-color: white;
+	color: black;
+	transition: 2s;
+ }
+
+ .products .box{
+	position: absolute;
+	top: 125vh;
+	left: 27%;
+	width: 20%;
+	height: 310px;
+	border: 1px solid black;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 1.4;
+	font-size: 18px;
+	padding: 7px;
+}
+.box button{
+	padding: 5px;
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+	transition: 2s;
+	border: 1px solid red;
+ }
+ 
+ .products .box button:hover{
+	background-color: white;
+	color: black;
+	transition: 2s;
+ }
+
+ .products .box2{
+	position: absolute;
+	top: 125vh;
+	left: 51%;
+	width: 20%;
+	height: 310px;
+	border: 1px solid black;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 1.4;
+	font-size: 18px;
+	padding: 7px;
+}
+.box2 button{
+	padding: 5px;
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+	transition: 2s;
+	border: 1px solid red;
+ }
+ 
+ .products .box2 button:hover{
+	background-color: white;
+	color: black;
+	transition: 2s;
+ }
+
+ .products .box3{
+	position: absolute;
+	top: 125vh;
+	left: 75%;
+	width: 20%;
+	height: 310px;
+	border: 1px solid black;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 1.4;
+	font-size: 18px;
+	padding: 7px;
+}
+.box3 button{
+	padding: 5px;
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+	transition: 2s;
+	border: 1px solid red;
+ }
+ 
+ .products .box3 button:hover{
+	background-color: white;
+	color: black;
+	transition: 2s;
+ }
+ 
+ h3{
+	position: absolute;
+	top: 180vh;
+	left: 38%;
+	font-size: 45px;
+	border-bottom: 2px solid red;
+ }
+
+
+ .content{
+	position: absolute;
+	top: 199vh;
+	width: 100%;
+	height: 600px;
+	background-color: white;
+	
+ }
+
+ .content .box4{
+	position: absolute;
+	top: 2vh;
+	left: 1%;
+	width: 47%;
+	height: 510px;
+	background-color: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px;
+ }
+
+ .box4 button{
+	padding: 5px;
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid red;
+ }
+
+ .content iframe{
+	position: absolute;
+	right: 1%;
+	top: 9vh;
+ }
+ 
+ .style{
+	width: 100%;
+	height: 310px;
+	position: absolute;
+	top: 300vh;
+ }
+ .slideshow .img {
+    background-image: url('IMG/zat.jpg');
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow .img1 {
+    background-image: url('IMG/11222.jpg');
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow .img2 {
+    background-image: url('IMG/21212.jpg');
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow .img3 {
+    background-image: url('IMG/22211.jpg');
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow .img4 {
+    background-image: url('IMG/33221.jpg');
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.slideshow {
+    height:400px;
+    width:80%;
+    margin:0 auto;
+}
+
+
+.slick-prev::before {
+    color: #000;
+}
+
+.slick-next::before {
+    color: #000;
+}
+
+
+.mr { 
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.authority{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	top: 360vh;
+	border: 1px solid black;
+
+}
+
+.authority h3{
+	position: absolute;
+	top: 0vh;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+
+.authority h4{
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 5vh;
+}
+
+.authority img{
+	border-radius: 15px;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+.authority h1{
+	position: absolute;
+	bottom: 25vh;
+	right: 8%;
+	font-size: 32px;
+	color: red;
+	  }
+
+	 .authority h5{
+		 position: absolute;
+		 right: 5%;
+		 bottom: 5vh;
+	 }
+
+.fa-facebook{
+  color: blue;
+}
+
+.fa-youtube{
+  color: red;
+}
+
+.fa-twitter{
+  color: skyblue;
+}
+
+.authority p{
+  font-size: 20px;
+  color: red;
+  padding-left: 10px;
+  padding-top: 80px;
+}
+
+.footer{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 435vh;
+	background-color: black;
+}
+
+.footer img{
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.footer h4{
+	color: white;
+	padding-left: 25px;
+	padding-top: 29px;
+}
+
+.footer h5{
+	color: white;
+	padding-left: 25px;
+	padding-top: 33px;
+}
+
+
+
+.footer p{
+	color: white;
+	position: absolute;
+	left: 2%;
+	top: 25vh;
+	font-weight: lighter;
+}
+
+.footer a{
+	padding-left: 25px;
+	padding-bottom: 35px;
+	color: white;
+} 
+
+.footer h6{
+	color: white;
+	position: absolute;
+	right: 5%;
+	bottom: 50vh;
+	font-weight: lighter;
+}
+
+
+
+
+
